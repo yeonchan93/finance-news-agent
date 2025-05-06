@@ -1,0 +1,10 @@
+services:
+  db-manager:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/finance-news-agent
+    working_dir: /finance-news-agent
+    tty: true
+    stdin_open: true
