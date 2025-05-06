@@ -1,5 +1,5 @@
 services:
-  db-manager:
+  finance-news-agent:
     build:
       context: .
       dockerfile: Dockerfile
